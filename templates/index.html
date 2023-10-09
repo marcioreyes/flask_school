@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Escolinha do Lulu</title>
-        <meta charcode='UTF-8'>
-    </head>
-    <body>
-        <h1>Landpage</h1>
-        <p>Parágrafo 1</p>
-    </body>
+<head>
+<title>Escolinha do Lulu</title>
+<meta charcode='UTF-8'>
+<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+<p>{{s_abc}}</p>
+<div class="content">
+  <h1 class="title"><img src="{{url_for('static', filename='img/logo.svg')}}">
+      <div class="aurora">
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+    </div>
+  </h1>
+  <h2 class="title">Open School Framework
+    <div class="aurora">
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+    </div>
+  </h2>
+  <p class="subtitle">Feito com amor HTML, Python e CSS.</p>
+</div>
+</body>
 </html>
