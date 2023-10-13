@@ -1,0 +1,129 @@
+
+#bt-normal{
+	width: 150px;
+    height: 60px;
+	background-color: white;
+    border: solid 2px;
+    border-color: lightgrey;
+    border-radius: 20px;
+    color: grey;
+    box-shadow: 0px 6px lightgrey;
+    cursor: pointer;
+}
+
+#bt-normal:hover{
+	width: 150px;
+    height: 70px;
+	background-color: white;
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 20px;
+    color: grey;
+    box-shadow: 0px 6px lightgrey;
+    cursor: pointer;
+}
+
+#bt-enviar{
+	width: 150px;
+    height: 60px;
+	background-color: lawngreen;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 6px yellowgreen;
+    cursor: pointer;
+}
+
+#bt-enviar:hover{
+	width: 150px;
+    height: 70px;
+	background-color: chartreuse;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 6px yellowgreen;
+    cursor: pointer;
+}
+
+#bt-cancelar{
+	width: 150px;
+    height: 60px;
+	background-color: coral;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 6px crimson;
+    cursor: pointer;
+}
+
+#bt-cancelar:hover{
+	width: 150px;
+    height: 70px;
+	background-color: darksalmon;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 6px crimson;
+    cursor: pointer;
+}
+
+#in-texto{
+	width: 150px;
+    height: 70px;
+	background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+#in-texto:focus{
+	width: 150px;
+    height: 70px;
+	background-color: whitesmoke;
+    border: solid 0px;
+    border-radius: 20px;
+    outline: none;
+    color: grey;
+    cursor: pointer;
+}
+
+.div-frase {
+    color: grey;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+  }
+  
+  .div-resposta {
+    color: green;
+    background-color: greenyellow;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+  }
+  
+  .div-info {
+    color: dodgerblue;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+  }
+  
+  .div-erro {
+    color: tomato;
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+  }
+  
